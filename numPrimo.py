@@ -1,3 +1,4 @@
+import time
 def es_primo(numero):
     for n in range(2, numero):
         if numero % n == 0:
@@ -8,3 +9,6 @@ def es_primo(numero):
  
 numero = int(input("Ingrese un numero: "))
 es_primo(numero)
+time.sleep(3)
+print("Good Bye")
+time.sleep(1)
